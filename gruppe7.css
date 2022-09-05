@@ -112,6 +112,25 @@ img{
     width: 100%;
     padding: 70px 0;
   }
+.season-pic{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.season-pic img{
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+}
+.desc {
+    padding: 5px;
+    text-align: center;
+    width: 375px;
+    font-size: 20px;
+  }
 
 /*bestil*/
 .faves{
