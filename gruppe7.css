@@ -125,6 +125,12 @@ img{
     height: 450px;
     object-fit: cover;
 }
+.titel-desc{
+    padding: 5px;
+    text-align: center;
+    width: 375px;
+    font-size: 40px;
+}
 .desc {
     padding: 5px;
     text-align: center;
