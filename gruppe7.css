@@ -41,11 +41,13 @@ img{
     font-size: 150px;
     font-family: "Righteous";
     padding-top: 220px;
+    text-shadow: 1px 1px #913831;
 }
 
 .banner-text p{
     font-size: 25px;
     font-style: italic;
+    text-shadow: 1px 1px #913831;
 }
 
 .banner-btn {
@@ -64,14 +66,15 @@ img{
 }
 .banner-btn a:hover {
     font-weight: bold;
-    color: #00B1FF;
-    border-color: #00B1FF;
-    background-color: #111011;
+    color: pink;
+    border-color: #a3a2a0;
+    background-color: white;
     transition: 0.5s;
 }
 
 /*menu ting*/
 /* Add a black background color to the top navigation */
+
 .navbar ul{
     list-style: none;
     background: #F1F1FF;
@@ -117,7 +120,7 @@ img{
     width: 100%;
     padding: 70px 0;
   }
-  
+
 /*bestil*/
 .faves{
     width: 100%;
@@ -129,6 +132,7 @@ img{
     width: 100%;
     padding: 70px 0;
 }
+
   
 footer {
     margin: 40px;
