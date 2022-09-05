@@ -74,46 +74,34 @@ img{
 
 /*menu ting*/
 /* Add a black background color to the top navigation */
-
-.navbar ul{
-    list-style: none;
-    background: #F1F1FF;
-    padding: 0;
-    margin: 0;
-    z-index: 2;
-    position: fixed;
-    top: 0%;
-    right: 0%;
-    left: 0%;
-}
-.navbar li{
-    display: inline-block;
-}
-.navbar a{
-    text-decoration: none;
-    color: #111011;
-    width: 200px;
-    display: block;
-    padding: 25px 20px;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: bold;
-
-}
-.navbar a:hover{
-    color: #00B1FF;
-    font-weight: bolder;
-}
-.navbar a:active{
-    color: #00B1FF;
-
-}
- 
-  /*menu*/
-  .menu{
-    width: 100%;
-    padding: 70px 0;
+.topnav {
+    background-color: rgb(24, 22, 22);
+    overflow: hidden;
   }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
 
   /*season*/
 .season{
@@ -131,10 +119,4 @@ img{
 .discover{
     width: 100%;
     padding: 70px 0;
-}
-
-  
-footer {
-    margin: 40px;
-    text-align: center;
 }
