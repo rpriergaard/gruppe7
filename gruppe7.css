@@ -66,7 +66,7 @@ img{
 }
 .banner-btn a:hover {
     font-weight: bold;
-    color: pink;
+    color: #913831;
     border-color: #a3a2a0;
     background-color: white;
     transition: 0.5s;
@@ -99,7 +99,7 @@ img{
 
 }
 .navbar a:hover{
-    color: #00B1FF;
+    color: #913831;
     font-weight: bolder;
 }
 .navbar a:active{
