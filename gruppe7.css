@@ -2,7 +2,6 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: acumin-pro, sans-serif;
     font-weight: 800;
     font-style: normal;
     background-color: #F1F1FF;
@@ -41,7 +40,7 @@ img{
 .banner-text h1{
     text-align: center;
     font-size: 150px;
-    font-family: "Righteous";
+    font-family: acumin-pro, sans-serif;
     padding-top: 220px;
     text-shadow: 1px 1px #913831;
 }
@@ -50,6 +49,7 @@ img{
     font-size: 25px;
     font-style: italic;
     text-shadow: 1px 1px #913831;
+    font-family: acumin-pro, sans-serif;
 }
 
 .banner-btn {
@@ -110,6 +110,11 @@ img{
 }
 
   /*season*/
+#season{
+    text-align: center;
+    font-size: 40px;
+}
+
 .season{
     width: 100%;
     padding: 70px 0;
@@ -126,6 +131,12 @@ img{
     width: 400px;
     height: 450px;
     object-fit: cover;
+}
+.titel-desc{
+    padding: 5px;
+    text-align: center;
+    width: 375px;
+    font-size: 35px;    
 }
 .desc {
     padding: 5px;
