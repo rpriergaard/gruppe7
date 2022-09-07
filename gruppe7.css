@@ -19,6 +19,7 @@ h1 {
 }
 p {
     font-size: 25px;
+    padding-top: 2px;
 }
 img{
     max-width: 100%;
@@ -74,6 +75,29 @@ img{
     transition: 0.5s;
 }
 
+button {
+    text-align: center;
+}
+
+button a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #F1F1FF;
+    border: .7px solid #F1F1FF;
+    text-transform: capitalize;
+}
+
+button a:hover {
+    font-weight: bold;
+    color: #913831;
+    border-color: #a3a2a0;
+    background-color: white;
+    transition: 0.5s;
+}
+
 /*menu ting*/
 .dropbtn {
     background-color: black;
@@ -84,19 +108,19 @@ img{
     border: none;
     cursor: pointer;
   }
-  
+
   /* Dropdown button on hover & focus */
   .dropbtn:hover, .dropbtn:focus {
     background-color: black;
     color: #F1F1FF;
   }
-  
+
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  
+
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
@@ -106,7 +130,7 @@ img{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 2;
   }
-  
+
   /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
@@ -114,10 +138,10 @@ img{
     text-decoration: none;
     display: block; 
   }
-  
+
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color: #ddd;}
-  
+
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
  
@@ -148,7 +172,7 @@ img{
     padding: 5px;
     text-align: center;
     width: 375px;
-    font-size: 35px;    
+    font-size: 35px;
 }
 .desc {
     padding: 5px;
@@ -167,4 +191,14 @@ img{
 .discover{
     width: 100%;
     padding: 70px 0;
+}
+
+
+.newsletter {
+    text-align: center;
+    
+}
+
+.newsbox {
+    color: #00B1FF;
 }

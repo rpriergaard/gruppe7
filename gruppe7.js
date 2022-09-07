@@ -20,3 +20,16 @@ window.onclick = function(event) {
     }
   }
 }
+
+
+ /* Newsletter alert*/
+ function myFunction() {
+  let text;
+  let person = prompt("Please enter your e-mail:", "myname@mail.com");
+  if (person == null || person == "") {
+    text = "Please try again.";
+  } else {
+    text = "Thank you for signing up with you email " + person + ". We are looking forward to keeping you updated on our products and community!";
+  }
+  document.getElementById("news").innerHTML = text;
+}
