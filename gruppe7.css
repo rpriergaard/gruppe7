@@ -195,13 +195,23 @@ button {
 
 
 .newsletter {
+    padding-top: 20px;
     text-align: center;
-    background-color: #00B1FF;
+    color: #F1F1FF;
+    background-color: black;
 
 }
 
 .newsbox {
-    color: #00B1FF;
+    display: block;
+    color: black;
+    background-color: #00B1FF;
+    width: 140px;
+    height: 40px;
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 * {
