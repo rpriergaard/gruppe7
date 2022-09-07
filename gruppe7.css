@@ -228,11 +228,6 @@ button {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
