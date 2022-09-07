@@ -172,7 +172,7 @@ button {
     padding: 5px;
     text-align: center;
     width: 375px;
-    font-size: 35px;
+    font-size: 30px;
 }
 .desc {
     padding: 5px;
@@ -182,12 +182,22 @@ button {
   }
 
 /*bestil*/
+#faves{
+  text-align: center;
+  font-size: 40px;
+}
+
 .faves{
     width: 100%;
     padding: 70px 0;
 }
 
 /*about*/
+#discover{
+  text-align: center;
+  font-size: 40px;
+}
+
 .discover{
     width: 100%;
     padding: 70px 0;
