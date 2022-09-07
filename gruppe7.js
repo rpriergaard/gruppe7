@@ -33,3 +33,12 @@ window.onclick = function(event) {
   }
   document.getElementById("news").innerHTML = text;
 }
+
+/* Tag gallery */
+function myFunction3 (imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}

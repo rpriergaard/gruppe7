@@ -73,9 +73,30 @@
 
   </div>
 
-  <h2 id="faves">Bestsellers</h2>
+  <h2 id="faves">Halloween Bath</h2>
   <div class="faves">
-        
+
+    <div class="row">
+      <div class="column">
+        <img src="bad_1.jpeg" alt="LUSH bad 1" style="width:100%" onclick="myFunction3(this);">
+      </div>
+      <div class="column">
+        <img src="bad_2.jpeg" alt="LUSH bad 2" style="width:100%" onclick="myFunction3(this);">
+      </div>
+      <div class="column">
+        <img src="bad_3.jpeg" alt="Lush bad 3" style="width:100%" onclick="myFunction3(this);">
+      </div>
+      <div class="column">
+        <img src="bad_4.jpeg" alt="Lush bad 4" style="width:100%" onclick="myFunction3(this);">
+      </div>
+
+    </div>
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <img id="expandedImg" style="width:50%">
+      <div id="imgtext"></div>
+    </div>
+
   </div>
 
   <h2 id="discover">Discover and have fun!</h2>
@@ -85,9 +106,9 @@
   <div class="newsletter">
     <h2>Never miss a thing!</h2>
   <p>Sign up for our newsletter now</p>
-    
+
   <button class="button" onclick="myFunction()">Sign up now</button>
-  
+
   <p id="news"></p>
   </div>
 
