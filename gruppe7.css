@@ -75,6 +75,29 @@ img{
     transition: 0.5s;
 }
 
+button {
+    text-align: center;
+}
+
+button a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #F1F1FF;
+    border: .7px solid #F1F1FF;
+    text-transform: capitalize;
+}
+
+button a:hover {
+    font-weight: bold;
+    color: #913831;
+    border-color: #a3a2a0;
+    background-color: white;
+    transition: 0.5s;
+}
+
 /*menu ting*/
 .dropbtn {
     background-color: black;
