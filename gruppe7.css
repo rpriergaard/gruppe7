@@ -79,7 +79,7 @@ button {
     text-align: center;
 }
 
-button a{
+.button a{
     width: 150px;
     text-decoration: none;
     display: inline-block;
@@ -90,7 +90,7 @@ button a{
     text-transform: capitalize;
 }
 
-button a:hover {
+.button a:hover {
     font-weight: bold;
     color: #913831;
     border-color: #a3a2a0;
