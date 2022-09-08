@@ -206,23 +206,33 @@ button {
 
 .newsletter {
     padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     color: #F1F1FF;
     background-color: black;
 
 }
 
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
 .newsbox {
-    display: block;
-    color: black;
-    background-color: #00B1FF;
+    display:inline-block;
+    color: rgb(245, 245, 245);
+    background-color: #913831;
     width: 140px;
     height: 40px;
     border-style: none;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 15px;
+    text-align: center;
 }
+
+
 
 * {
   box-sizing: border-box;
