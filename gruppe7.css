@@ -21,6 +21,7 @@ h1 {
 p {
     font-size: 25px;
     padding-top: 2px;
+    text-align: center;
 }
 img{
     max-width: 100%;

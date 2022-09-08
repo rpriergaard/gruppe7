@@ -61,3 +61,13 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+//Array//
+var love = ["yes", "no", "maybe"];
+
+var output=document.getElementById("out");
+if(love[0]=="yes") {
+    output.innerHTML="Yes, we do!";
+} else {
+    output.innerHTML="Hmm, okay";
+}
