@@ -155,6 +155,7 @@ button {
     width: 100%;
     padding: 70px 0;
   }
+  
 .season-pic{
     width: 80%;
     display: flex;
@@ -181,7 +182,7 @@ button {
     font-size: 20px;
   }
 
-/*bestil*/
+/*faves*/
 #faves{
   text-align: center;
   font-size: 40px;
@@ -192,7 +193,7 @@ button {
     padding: 70px 0;
 }
 
-/*about*/
+/*discover*/
 #discover{
   text-align: center;
   font-size: 40px;
@@ -203,26 +204,47 @@ button {
     padding: 70px 0;
 }
 
-
+/* newsletter */
 .newsletter {
     padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     color: #F1F1FF;
     background-color: black;
 
 }
 
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
 .newsbox {
+<<<<<<< Updated upstream
+    display:inline-block;
+    color: rgb(245, 245, 245);
+    background-color: #913831;
+=======
     display: block;
+    
     color: black;
-    background-color: #00B1FF;
+    background-color: #F1F1FF;
+>>>>>>> Stashed changes
     width: 140px;
     height: 40px;
     border-style: none;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 15px;
+<<<<<<< Updated upstream
+    text-align: center;
+=======
+
+>>>>>>> Stashed changes
 }
+
+
 
 * {
   box-sizing: border-box;
@@ -277,6 +299,7 @@ button {
   cursor: pointer;
 }
 
+/*newsletterbutton*/
 #myBtn {
   display: none;
   position: fixed;
