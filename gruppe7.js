@@ -33,7 +33,7 @@ window.onclick = function(event) {
   document.getElementById("news").innerHTML = text;
 }
 
-/* Tag gallery */
+/* Tab gallery */
 function myFunction3 (imgs) {
   var expandImg = document.getElementById("expandedImg");
   var imgText = document.getElementById("imgtext");
