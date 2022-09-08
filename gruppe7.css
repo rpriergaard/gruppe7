@@ -217,14 +217,8 @@ button {
 
     color: rgb(245, 245, 245);
     background-color: #913831;
-    display: block; 
     color: black;
     display:inline-block;
-    color: rgb(245, 245, 245);
-    background-color: #913831;
-    display: block;
-    color: black;
-    background-color: #F1F1FF;
     width: 140px;
     height: 40px;
     border-style: none;
