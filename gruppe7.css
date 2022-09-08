@@ -6,6 +6,7 @@ body{
     font-style: normal;
     background-color: #F1F1FF;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*generelt*/
@@ -50,7 +51,6 @@ img{
     font-size: 25px;
     font-style: italic;
     text-shadow: 1px 1px #913831;
-    font-family: acumin-pro, sans-serif;
 }
 
 .banner-btn {
@@ -214,16 +214,13 @@ button {
 }
 
 .newsbox {
-
     color: rgb(245, 245, 245);
     background-color: #913831;
-    color: black;
     display:inline-block;
     width: 140px;
     height: 40px;
     border-style: none;
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 15px;
     text-align: center;
 }
@@ -298,4 +295,3 @@ button {
 
 #myBtn:hover {
 background-color: #555;
-}
