@@ -155,6 +155,7 @@ button {
     width: 100%;
     padding: 70px 0;
   }
+  
 .season-pic{
     width: 80%;
     display: flex;
@@ -181,7 +182,7 @@ button {
     font-size: 20px;
   }
 
-/*bestil*/
+/*faves*/
 #faves{
   text-align: center;
   font-size: 40px;
@@ -192,7 +193,7 @@ button {
     padding: 70px 0;
 }
 
-/*about*/
+/*discover*/
 #discover{
   text-align: center;
   font-size: 40px;
@@ -203,7 +204,7 @@ button {
     padding: 70px 0;
 }
 
-
+/* newsletter */
 .newsletter {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -298,6 +299,7 @@ button {
   cursor: pointer;
 }
 
+/*newsletterbutton*/
 #myBtn {
   display: none;
   position: fixed;
