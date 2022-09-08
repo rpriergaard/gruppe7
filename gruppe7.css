@@ -211,37 +211,20 @@ button {
     text-align: center;
     color: #F1F1FF;
     background-color: black;
-
-}
-
-
-.center {
-    display: flex;
-    align-items: center;
 }
 
 .newsbox {
-<<<<<<< Updated upstream
-    display:inline-block;
     color: rgb(245, 245, 245);
     background-color: #913831;
-=======
-    display: block;
-    
+    display: block; 
     color: black;
-    background-color: #F1F1FF;
->>>>>>> Stashed changes
     width: 140px;
     height: 40px;
     border-style: none;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 15px;
-<<<<<<< Updated upstream
     text-align: center;
-=======
-
->>>>>>> Stashed changes
 }
 
 
