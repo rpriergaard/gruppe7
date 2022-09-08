@@ -1,5 +1,12 @@
 console.log("virker det?");
 
+/* dom script "softens skin and care" */
+<script>
+document.getElementById("p1").style.color = #913831;
+document.getElementById("p1").style.fontFamily = "Arial";
+document.getElementById("p1").style.fontSize = "larger";
+</script>
+
 
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
