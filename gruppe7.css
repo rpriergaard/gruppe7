@@ -214,16 +214,13 @@ button {
 }
 
 .newsbox {
-
     color: rgb(245, 245, 245);
     background-color: #913831;
-    color: black;
     display:inline-block;
     width: 140px;
     height: 40px;
     border-style: none;
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 15px;
     text-align: center;
 }
